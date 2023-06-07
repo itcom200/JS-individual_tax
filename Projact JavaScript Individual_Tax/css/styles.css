@@ -1,0 +1,82 @@
+.banner {
+    background-color: rgba(70, 147, 235, 0.2);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+.tax-calculator {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tax-calculator input[type="number"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    text-align: right;
+}
+
+.tax-calculator button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c8aff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.tax-calculator button:hover {
+    background-color: #337eff;
+}
+
+.tax-calculator button:active {
+    background-color: #2255cc;
+}
+
+.tax-calculator button.clear {
+    background-color: #ff4c4c;
+}
+
+.tax-calculator button.clear:hover {
+    background-color: #ff3333;
+}
+
+.tax-calculator button.clear:active {
+    background-color: #cc0000;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>คำนวณภาษีเงินได้บุคคลธรรมดา</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="banner">
+    <div class="banner-content">
+      <h1>ระบบคำนวณภาษีเงินได้บุคคลธรรมดา</h1>
+    </div>
+  </div>
+
+  <div class="tax-calculator">
+    <h3>คำนวณภาษีเงินได้บุคคลธรรมดา</h3>
+    <input type="number" id="annualIncome" placeholder="รายได้ต่อปี (บาท)">
+    <button onclick="calculateTax()">คำนวณภาษี</button>
+    <button class="clear" onclick="clearInput()">Clear</button>
+    <p id="result"></p>
+  </div>
+  <div class="banner">
+    <img src="img/01.jpg" alt="อัตราภาษีปี 2560">
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
